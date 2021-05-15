@@ -1,0 +1,22 @@
+
+# prh version
+version: 1
+rules:
+
+  # format case-sensitive
+  - expected: Cookie
+  # the above is equal to following
+  # - expected: Cookie
+  #   pattern: "/[CcＣｃ][OoＯｏ][OoＯｏ][KkＫｋ][IiＩｉ][EeＥｅ]/g"
+  #   options:
+  #     wordBoundary: false
+  #   specs: []
+
+  # Write test to `expect`
+  - expected: jQuery
+    specs:
+      - from: jquery
+        to:   jQuery
+      - from: ＪＱＵＥＲＹ
+        to:   jQuery
+
