@@ -1,16 +1,9 @@
 # textlint-compiler-prh-example
 
+textlint editor example for [textlint-rule-prh](https://github.com/textlint-rule/textlint-rule-prh),
 
+- https://azu.github.io/textlint-editor-prh-example/
 
-## Install
-
-Install with [npm](https://www.npmjs.com/):
-
-    npm install textlint-compiler-prh-example
-
-## Usage
-
-- [ ] Write usage instructions
 
 ## Changelog
 
