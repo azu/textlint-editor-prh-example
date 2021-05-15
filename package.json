@@ -1,18 +1,18 @@
 {
-  "name": "textlint-compiler-prh-example",
+  "name": "textlint-editor-prh-example",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/azu/textlint-compiler-prh-example",
+  "homepage": "https://github.com/azu/textlint-editor-prh-example",
   "bugs": {
-    "url": "https://github.com/azu/textlint-compiler-prh-example/issues"
+    "url": "https://github.com/azu/textlint-editor-prh-example/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/textlint-compiler-prh-example.git"
+    "url": "https://github.com/azu/textlint-editor-prh-example.git"
   },
   "license": "MIT",
   "author": "azu",
-  "main": "lib/textlint-compiler-prh-example.js",
+  "main": "lib/textlint-editor-prh-example.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -26,7 +26,6 @@
     "website": "textlint-website-generator --output-dir dist"
   },
   "dependencies": {
-    "@textlint/website-generator": "^0.11.3",
     "textlint": "^11.9.1",
     "textlint-rule-prh": "^5.3.0"
   }
